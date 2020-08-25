@@ -11,6 +11,7 @@ public class MySelfRule {
     @Bean
     @LoadBalanced
     public RandomRule getRestTemplate(){
+
         return new RandomRule();
     }
 }
