@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3986df68-189f-4827-b053-489168fdd20d" name="Default Changelist" comment="" />
-    <list id="84cbbd70-a234-418b-9e51-02493f214d16" name="Revert &quot;服务熔断降级hystrix&quot;" comment="Revert &quot;服务熔断降级hystrix&quot;&#10;&#10;This reverts commit 1c3dc3ad">
-      <change beforePath="$PROJECT_DIR$/cloud-consume-feign-order80/cloud-consume-feign-order80.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consume-feign-order80/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consume-feign-order80/src/main/java/com/alpha/springcloud/OrderFeign80.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consume-feign-order80/src/main/java/com/alpha/springcloud/controller/OrderFeignController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consume-feign-order80/src/main/java/com/alpha/springcloud/service/PaymentFeignService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consume-feign-order80/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/alpha/springcloud/PaymentMain8001.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/alpha/springcloud/controller/PaymentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/alpha/springcloud/service/PaymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" beforeDir="false" />
+    <list default="true" id="3986df68-189f-4827-b053-489168fdd20d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -483,7 +471,7 @@
       <workItem from="1596471415074" duration="3213000" />
       <workItem from="1596718531567" duration="12492000" />
       <workItem from="1596944655614" duration="45128000" />
-      <workItem from="1597756206278" duration="12840000" />
+      <workItem from="1597756206278" duration="13480000" />
     </task>
     <task id="LOCAL-00001" summary="服务熔断降级hystrix">
       <created>1598360756324</created>
@@ -506,11 +494,25 @@
       <option name="project" value="LOCAL" />
       <updated>1598362048266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revert &quot;服务熔断降级hystrix&quot;&#10;&#10;This reverts commit 1c3dc3ad">
+      <created>1598362409859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598362409859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Revert &quot;服务熔断降级hystrix&quot;&#10;&#10;This reverts commit 1c3dc3ad">
+      <created>1598362471898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598362471898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86456000" />
+    <option name="totallyTimeSpent" value="87096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,7 +532,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5010799" side_tool="true" weight="0.24585219" />
       <window_info id="Web" order="5" sideWeight="0.5010799" side_tool="true" weight="0.24585219" />
-      <window_info anchor="bottom" id="Thumbnails" visible="true" weight="0.32968536" />
+      <window_info anchor="bottom" id="Thumbnails" sideWeight="0.4981577" visible="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.24623802" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3295129" />
@@ -543,7 +545,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32968536" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295129" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015083" side_tool="true" weight="0.21633238" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5018423" side_tool="true" visible="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3295129" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3295129" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3295129" />
@@ -573,7 +575,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="服务熔断降级hystrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务熔断降级hystrix" />
+    <MESSAGE value="Revert &quot;服务熔断降级hystrix&quot;&#10;&#10;This reverts commit 1c3dc3ad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;服务熔断降级hystrix&quot;&#10;&#10;This reverts commit 1c3dc3ad" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
